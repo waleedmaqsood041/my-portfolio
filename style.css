@@ -53,3 +53,30 @@ margin: auto;
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    /* border-top-right-radius:0.5rem; */
+}
+
+.navigation .nav-brand{
+font-weight: bold;
+font-size: 1.1rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.nav-list{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
