@@ -11,6 +11,8 @@ hr{
 
 :root{
 --primary-color:#00B0FF;
+--dark-gray:#4b5563;
+
 }
 
 
@@ -79,4 +81,26 @@ font-size: 1.1rem;
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+
+/* header */
+.hero{
+    padding:2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
