@@ -9,32 +9,36 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+.h-size{
+    font-size: 30px;
+}
+
 h1{
-    font-size: 40px;
+    font-size: 26px;
 }
 h2{
-    font-size: 38px;
-}
-
-small{
-    font-size: 20px;
-}
-
-p{
     font-size: 26px;
 }
 
+small{
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+}
+.social-link-size{
+    font-size: 18px;
+}
 a{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 hr{
     margin: 2rem 0rem;
 }
 
-.size{
-    font-size: 22px;
-}
+
 :root{
 --primary-color:#00B0FF;
 --off-white:#f3f4f6;
@@ -128,7 +132,7 @@ bottom: 10px;
 
 .navigation .nav-brand{
 font-weight: bold;
-font-size: 1.1rem;
+font-size: 1.5rem;
 }
 
 .navigation .link{
@@ -146,7 +150,7 @@ font-size: 1.1rem;
 
 /* header */
 .hero{
-    padding:2rem;
+    padding:4rem 2rem;
 }
 
 .hero .hero-img{
@@ -192,7 +196,7 @@ font-size: 1.1rem;
 
 .footer .footer-heading{
     font-weight:bold;
-    font-size: 32px;
+    font-size: 30px;
 }
 .footer .link{
     color: white;
